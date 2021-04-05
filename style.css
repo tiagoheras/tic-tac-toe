@@ -1,0 +1,15 @@
+#grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    height: 95vh;
+}
+
+.square {
+    border: 1px solid black;
+    border-collapse: collapse;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 64px;
+    font-family: 'sans-serif';
+}
